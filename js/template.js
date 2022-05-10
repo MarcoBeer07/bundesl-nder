@@ -1,9 +1,9 @@
-function showBundeslaenderHTML(element) {
+function showBundeslaenderHTML(land) {
     return `
-    <a href="${element['url']}" class="bundeslaender-box">
+    <a href="${land['url']}"target="_blank" class="bundeslaender-box">
     <div class="bundeslaender-spans">
-        <span>${element['name']}</span>
-        <span class="population">${element['population']} Millionen</span>
+        <span>${land['name']}</span>
+        <span class="population">${(land['population']+'').replace('.',',')} Millionen</span>
     </div>
     </a>
     `
