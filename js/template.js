@@ -1,8 +1,10 @@
 function showBundeslaenderHTML(element) {
     return `
-    <div class="bundeslaender-box">
-    <span>${element['name']}</span>
-    <span>${element['population']}</span>
+    <a href="${element['url']}" class="bundeslaender-box">
+    <div class="bundeslaender-spans">
+        <span>${element['name']}</span>
+        <span class="population">${element['population']} Millionen</span>
     </div>
+    </a>
     `
 }
