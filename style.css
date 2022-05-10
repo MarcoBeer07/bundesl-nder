@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.headline {
+    background-color: rgb(204, 204, 204);
+}
+
+.bundeslaender-main-box {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+
+.bundeslaender-box {
+    display: flex;
+    flex-direction: column;
+}
